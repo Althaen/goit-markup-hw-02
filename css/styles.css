@@ -6,6 +6,9 @@
   --bg-main: #ffffff;
   --bg-secondary: #2f303a;
 }
+.active {
+  color: var(--accent-color);
+}
 .button {
   cursor: pointer;
   background-color: var(--button-color);
@@ -45,6 +48,9 @@ header {
 header > ul li {
   color: var(--secondary-color);
 }
+header ul li {
+  font-weight: 500;
+}
 header a:focus,
 header a:hover {
   color: var(--accent-color);
@@ -61,6 +67,7 @@ header a:hover {
 .features h3 {
   text-transform: uppercase;
   line-height: 1.14;
+  font-weight: bold;
 }
 .features p {
   color: var(--secondary-color);
@@ -79,15 +86,16 @@ header a:hover {
   background-color: var(--button-color);
 }
 .team ul {
-  font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
 .team ul h3 {
   font-weight: 500;
+  font-size: 16px;
 }
 .team p {
   color: var(--secondary-color);
+  font-size: 16px;
 }
 .logo-footer {
   color: #ffffff;
